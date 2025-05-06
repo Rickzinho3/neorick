@@ -1,7 +1,7 @@
 [project]
 name = "neorick"
 version = "0.1.0"
-description = ""
+description = "A system monitoring and reporting tool"
 authors = [
     {name = "José Henrique Ferreira De Souza",email = "henriqueferreiraaf56@gmail.com"}
 ]
@@ -12,15 +12,19 @@ dependencies = [
     "wmi (>=1.5.1,<2.0.0)",
     "rich (>=14.0.0,<15.0.0)",
     "pyfiglet (>=1.0.2,<2.0.0)",
-    "matplotlib (>=3.10.1,<4.0.0)"
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "fpdf2 (>=2.8.3,<3.0.0)"
 ]
 
 [tool.poetry]
-packages = [{include = "neorick", from = "src"}]
+packages = [
+    {include = "neorick", from = "src"},
+    {include = "scripts"}
+]
 
 [tool.poetry.scripts]
-neorick-create = "neorick.__main__:create_pdf"
 neorick = "neorick.__init__:main"
+neorick-create = "scripts.__main__:criar_relatorio_sistema"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
