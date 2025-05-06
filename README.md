@@ -17,7 +17,9 @@
 1. Python 3.10 ou superior
 2. Git
 
-# Utilização
+# Uso do código fonte
+
+Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick]()
 
 Caso queira rodar este script na sua máquina, siga os passos abaixo:
 
