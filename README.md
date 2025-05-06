@@ -23,27 +23,15 @@ Caso queira rodar este script na sua máquina, siga os passos abaixo:
 
 1. Clone o repositório de entre nele
 
-```bash
-git clone https://github.com/Rickzinho3/Neofetch.git
-cd Neofetch
+```sh
+git clone https://github.com/Rickzinho3/neorick.git
+cd neorick
 ```
 
-2. Crie o ambiente virtual
+2. Instale as deoendências
 
-```bash
-python -m venv venv
-```
-
-3. Ative o ambiente virtual
-
-```bash
-.\venv\Scripts\activate
-```
-
-4. Faça o downlaod das dependências
-
-```bash
-pip install -r requirements.txt
+```sh
+poetry install
 ```
 
 # Extra
