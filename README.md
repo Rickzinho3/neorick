@@ -30,7 +30,7 @@ git clone https://github.com/Rickzinho3/neorick.git
 cd neorick
 ```
 
-2. Instale as deoendências
+2. Instale as dependências
 
 ```sh
 poetry install
@@ -40,17 +40,18 @@ poetry install
 
 Caso queira que o `Neorich` seja executado no seu powershell, siga os seguintes passos:
 
-Abra o `Powershell` e digite o comando `notepad $PROFILE`
+1. Instale a biblioteca
+
+```sh
+pip install neorick
+```
+
+2. Abra o `Powershell` e digite o comando `notepad $PROFILE`
 
 > [!NOTE]
 > Caso você não tenha um perfil, irá aparecer uma mensagem para você criar, basta confirmar.
 
-Depois de abrir o seu perfil, coloque o seguinte comando no bloco de notas:
-
-`python <caminho-do-script>`
-
-E substitua `<caminho-do-script>` pelo caminho onde você salvou o arquivo. Depois é só salvar e aproveiatr!
-
+Depois de abrir o seu perfil, cole `neorick` e salve.
 <br>
 
 <p align=center>J. Henrique &copy; 2025. Todos os direitos reservados.</p>
