@@ -19,9 +19,9 @@
 
 # Uso do código fonte
 
-Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick]()
+Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick]() (ainda nã publicado).
 
-Caso queira rodar este script na sua máquina, siga os passos abaixo:
+Caso queira proseguir com a opção 1:
 
 1. Clone o repositório de entre nele
 
