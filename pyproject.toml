@@ -1,0 +1,27 @@
+[project]
+name = "neorick"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "José Henrique Ferreira De Souza",email = "henriqueferreiraaf56@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "psutil (>=7.0.0,<8.0.0)",
+    "wmi (>=1.5.1,<2.0.0)",
+    "rich (>=14.0.0,<15.0.0)",
+    "pyfiglet (>=1.0.2,<2.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "neorick", from = "src"}]
+
+[tool.poetry.scripts]
+neorick-create = "neorick.__main__:create_pdf"
+neorick = "neorick.__init__:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
