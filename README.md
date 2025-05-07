@@ -15,7 +15,6 @@
 # Requisitos
 
 1. Python 3.10 ou superior
-2. Git
 
 # Uso do código fonte
 
