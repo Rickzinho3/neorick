@@ -20,7 +20,7 @@
 
 Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick](https://neorick-net.vercel.app)
 
-Caso queira proseguir com a opção 1:
+Caso queira prosseguir com a opção 1:
 
 1. Clone o repositório de entre nele
 
