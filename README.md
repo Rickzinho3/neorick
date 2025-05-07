@@ -8,7 +8,7 @@
 </div>
 
 > [!WARNING]
-> O uso dos arquivos deste projeto é delimitado para <strong>fins de estudo</strong>. Qualquer outra ação está estrictamente proibida.
+> O uso dos arquivos deste projeto é delimitado para <strong>fins de estudo</strong>. Caso queira colaborar com o desenvolvimento, entre no [site](https://neorick-net.vercel.app) e contate-nos.
 
 > Caso ainda não tenha o Python instalado, baixe [aqui.](https://www.python.org/downloads)
 
