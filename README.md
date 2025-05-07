@@ -19,7 +19,7 @@
 
 # Uso do código fonte
 
-Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick]() (ainda nã publicado).
+Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick](https://neorick-net.vercel.app)
 
 Caso queira proseguir com a opção 1:
 
