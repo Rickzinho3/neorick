@@ -8,20 +8,19 @@
 </div>
 
 > [!WARNING]
-> O uso dos arquivos deste projeto é delimitado para <strong>fins de estudo</strong>. Qualquer outra ação está estrictamente proibida.
+> O uso dos arquivos deste projeto é delimitado para <strong>fins de estudo</strong>. Caso queira colaborar com o desenvolvimento, entre no [site](https://neorick-net.vercel.app) e contate-nos.
 
 > Caso ainda não tenha o Python instalado, baixe [aqui.](https://www.python.org/downloads)
 
 # Requisitos
 
 1. Python 3.10 ou superior
-2. Git
 
 # Uso do código fonte
 
-Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick]() (ainda nã publicado).
+Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick](https://neorick-net.vercel.app)
 
-Caso queira proseguir com a opção 1:
+Caso queira prosseguir com a opção 1:
 
 1. Clone o repositório de entre nele
 
