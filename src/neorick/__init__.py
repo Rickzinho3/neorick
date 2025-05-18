@@ -8,7 +8,6 @@ import wmi
 from math import ceil
 import psutil
 from time import sleep
-import pyfiglet
 from rich.console import Console
 from rich.progress import Progress
 import os
@@ -50,8 +49,20 @@ def main():
         
         progress.update(task, advance=50)
 
-    logo = pyfiglet.figlet_format("NeoRick", font="slant")
-    logo_lines = logo.splitlines()
+    logo_lines = """
+...=****+:....=*****+...:************+=......
+..=%*****%#..*%******@..@*************#%%*...
+..+%******%#.-%******@..@****************%#..
+..#%*******%#-##*****@..@*******##*******#%..
+..%#********#%@#*****@..@******%#+%#*****%:..
+..@******************%.-%******#%%#***%%*....
+..@******************%-+%***********#%%*:....
+..@******%@%#********%=*%******%@%******%#...
+..@******%*-%#*******%=%%******%#*%******#%..
+..@******##.:%%******%=%#******%*=%*******%+.
+..@******#%-..+%#****@.%#******%#-##******#%.
+..-**###**-.....=*##*...***##**+:.:**###***:.
+""".splitlines()
 
     os.system("cls" if os.name == 'nt' else "clear")
 

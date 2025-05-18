@@ -1,6 +1,6 @@
 [project]
 name = "neorick"
-version = "0.1.0"
+version = "1.2.0"
 description = "A system monitoring and reporting tool"
 authors = [
     {name = "José Henrique Ferreira De Souza",email = "henriqueferreiraaf56@gmail.com"}
@@ -13,7 +13,8 @@ dependencies = [
     "rich (>=14.0.0,<15.0.0)",
     "pyfiglet (>=1.0.2,<2.0.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
-    "fpdf2 (>=2.8.3,<3.0.0)"
+    "fpdf2 (>=2.8.3,<3.0.0)",
+    "questionary (>=2.1.0,<3.0.0)"
 ]
 
 [tool.poetry]
