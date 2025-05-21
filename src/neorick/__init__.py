@@ -67,20 +67,20 @@ def main():
     os.system("cls" if os.name == 'nt' else "clear")
 
     infos = [
-        f"[purple]USER[/]           {user}",
-        f"[purple]HOSTNAME[/]       {hostname or 'Unknown'}",
-        f"[purple]E-MAIL[/]         {email}",
-        f"[purple]SYSTEM[/]         {system}",
-        f"[purple]CPU[/]            {cpu}",
-        f"[purple]GPU[/]            {gpu}",
-        f"[purple]RAM[/]            {ram:.2f} GB",
-        f"[purple]FREE RAM[/]       {fram:.2f} GB",
-        f"[purple]STORAGE[/]        {storage}",
-        f"[purple]FREE STORAGE[/]   {free_storage}",
-        f"[purple]ARCHITECTURE[/]   {arch}",
-        f"[purple]UPLOAD[/]         {sent:.2f} MB",
-        f"[purple]DOWNLOAD[/]       {recv:.2f} MB",
-        f"[purple]LOCAL IP[/]       {ip_address}"
+        f"        [purple]USER[/]           {user}",
+        f"        [purple]HOSTNAME[/]       {hostname or 'Unknown'}",
+        f"        [purple]E-MAIL[/]         {email}",
+        f"        [purple]SYSTEM[/]         {system}",
+        f"        [purple]CPU[/]            {cpu}",
+        f"        [purple]GPU[/]            {gpu}",
+        f"        [purple]RAM[/]            {ram:.2f} GB",
+        f"        [purple]FREE RAM[/]       {fram:.2f} GB",
+        f"        [purple]STORAGE[/]        {storage}",
+        f"        [purple]FREE STORAGE[/]   {free_storage}",
+        f"        [purple]ARCHITECTURE[/]   {arch}",
+        f"        [purple]UPLOAD[/]         {sent:.2f} MB",
+        f"        [purple]DOWNLOAD[/]       {recv:.2f} MB",
+        f"        [purple]LOCAL IP[/]       {ip_address}"
     ]
 
     max_lines = max(len(logo_lines), len(infos))
