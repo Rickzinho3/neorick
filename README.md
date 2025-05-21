@@ -8,7 +8,7 @@
 </div>
 
 > [!WARNING]
-> O uso dos arquivos deste projeto é delimitado para <strong>fins de estudo</strong>. Caso queira colaborar com o desenvolvimento, entre no [site](neoricknetwork.vercel.app) e contate-nos.
+> O uso dos arquivos deste projeto é delimitado para <strong>fins de estudo</strong>. Caso queira colaborar com o desenvolvimento, entre no [site](https://neoricknetwork.vercel.app) e contate-nos.
 
 > Caso ainda não tenha o Python instalado, baixe [aqui.](https://www.python.org/downloads)
 
@@ -18,7 +18,7 @@
 
 # Uso do código fonte
 
-Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick](neoricknetwork.vercel.app)
+Você pode clonar o repositório ou baixar o arquivo `.tar.gz` no site do [NeoRick](https://neoricknetwork.vercel.app)
 
 Caso queira prosseguir com a opção 1:
 
